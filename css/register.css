@@ -1,40 +1,79 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 22 ago. 2021, 16:22:39
-    Author     : rsgar
-*/
-
-.root {
-    -fx-background-color: #151928;
-    -fx-font-size:30;
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #434E5E;
+    --bs-secondary: #58677c;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    background-color: #151928;
+    font-size:30;
+    color:#dcdcdc;
 }
 
+.contenedor{
+    size : 80%;
+    margin-top: 200;
+    float: center;
+}
+img{
+    margin-bottom:30;
+}
 .button{
     /*-fx-background-color:linear-gradient(#dc9656,#ab4642);*/
-    -fx-background-color:#2196f3;
-    -fx-text-fill:#dcdcdc;
-    -fx-background-radius: 6em;
+    background-color:#2196f3;
+    width: 200;
+    height: 60;
+    color:#dcdcdc;
+    border-radius: 6em;
+    font-size:30;
+    margin-top: 50;
+    cursor:pointer;
 }
 
 .button:hover{
-    -fx-background-color:#5db6ff;
+    background-color:#5db6ff;
 }
 
 .button:pressed{
-    -fx-background-color:#104f7c;
+    background-color:#104f7c;
 }
 
 .tf_box{
-    -fx-background-color:transparent;
-    -fx-border-color:#ffffff;
-    -fx-border-width: 0px 0px 1px 0px;
-    -fx-text-fill: #ffffff;
+    background-color:transparent;
+    border-color:#ffffff;
+    border-width: 0px 0px 1px 0px;
+    color: #ffffff;
+    font-size:26;
+    margin : 40;
 }
 
-.tf{
-    -fx-background-color:transparent;
+.tf_box:hover{
+    background-color:transparent;
+    border-color:#ffffff;
+    border-width: 0px 0px 1px 0px;
+    color: #ffffff;
+    font-size:26;
+    margin : 40;
 }
+
+.tf_box::selection {
+    background-color:transparent;
+    border-color:#ffffff;
+    border-width: 0px 0px 1px 0px;
+    color: #ffffff;
+    font-size:26;
+    margin : 40;
+}
+
